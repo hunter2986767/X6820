@@ -77,6 +77,7 @@ BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_KERNEL_CONFIG := Infinix-X6820_defconfig
 TARGET_KERNEL_SOURCE := kernel/infinix/Infinix-X6820
+TARGET_NO_KERNEL := true
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_kernel := true
@@ -104,6 +105,7 @@ TARGET_NO_KERNEL := true
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
+
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
